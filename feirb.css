@@ -1,0 +1,152 @@
+/* GLOBAL CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: black;
+}
+
+h4,h5{
+    font-size: 1.5rem;
+}
+
+li{
+    font-size: 1.5rem;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HEADER */
+
+.menu{
+    background: white;
+    color: #1297e0;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 3 1 40rem;
+}
+
+/* MIDDLE */
+
+.middle{
+    width: auto;
+    height: 150vh;
+    background-image: url(images/domenico.jpg);
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h3{
+    padding: 4rem;
+}
+
+/*Slogan */
+
+.slogan{
+    height: 50vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h3{
+    padding: 4rem;
+}
+
+.services
+{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.services div
+{
+    width: 30%;
+    height: 300px;
+    align-items: center;
+}
+
+.services .colonne{
+text-align: center;
+}
+
+.services p {
+    font-size: 18px;
+}
+
+section.contact_us{
+    padding:50px;
+    text-align:center;
+}
+section.contact_us h2{
+    text-align:center;
+    padding-bottom:10px;
+    font-size:35px;
+    margin-top:0px;
+}
+section.contact_us input,section.contact_us textarea,section.contact_us button{
+    width:100%;
+    max-width:768px !important;
+    border:1px solid #444444;
+    padding:20px;
+    background-color:#fff;
+    margin-bottom:10px;
+    color:#444444;
+    box-sizing: border-box;
+}
+
+section.contact_us button {
+    background-color: #facc00;
+}
